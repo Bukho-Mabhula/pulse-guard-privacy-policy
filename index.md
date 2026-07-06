@@ -1,7 +1,7 @@
 # pulse-guard-privacy-policy
 
-**Effective date:** [01/04/2026] 
-**Last updated:** [06/07/2026]
+**Effective date:** 01/04/2026 
+**Last updated:** 06/07/2026
 
 Pulse Guard respects your privacy. This Privacy Policy explains how we collect, use, store, and share information when you use the Pulse Guard mobile application, website, and related services.
 
@@ -175,5 +175,5 @@ Your continued use of Pulse Guard after changes are posted means you accept the 
 
 If you have questions, requests, or concerns about this Privacy Policy or how Pulse Guard handles information, contact us at:
 
-**Email:** [pulseguard@gmail.com]  
+**Email:** pulseguard@gmail.com 
 **App:** Pulse Guard
