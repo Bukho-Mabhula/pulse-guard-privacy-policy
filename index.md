@@ -1,3 +1,4 @@
+layout: default
 # Pulse Guard Privacy Policy
 
 **Effective date:** 01/04/2026 
