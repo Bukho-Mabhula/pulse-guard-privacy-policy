@@ -1,4 +1,4 @@
-# pulse-guard-privacy-policy
+# Pulse-Guard Privacy-Policy
 
 **Effective date:** 01/04/2026 
 **Last updated:** 06/07/2026
