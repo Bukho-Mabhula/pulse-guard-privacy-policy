@@ -1,0 +1,1111 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Pulse Guard | Privacy Policy</title>
+
+  <meta
+    name="description"
+    content="Pulse Guard Privacy Policy"
+  />
+
+  <style>
+    :root {
+      /* Pulse Guard Brand Colors */
+      --primary: #53BC43;
+      --primary-dark: #429636;
+
+      --background: #f5f7f4;
+      --surface: #ffffff;
+
+      --text: #172017;
+      --muted: #647064;
+      --border: #dfe7dc;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family:
+        Inter,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Helvetica,
+        Arial,
+        sans-serif;
+
+      background: var(--background);
+      color: var(--text);
+      line-height: 1.7;
+    }
+
+    /* =========================
+       NAVIGATION
+    ========================= */
+
+    header {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+
+      position: sticky;
+      top: 0;
+
+      z-index: 100;
+    }
+
+    .nav {
+      max-width: 1100px;
+      margin: 0 auto;
+
+      padding: 16px 24px;
+
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+
+      color: var(--text);
+      text-decoration: none;
+
+      font-weight: 700;
+      font-size: 1.05rem;
+    }
+
+    .brand img {
+      width: 42px;
+      height: 42px;
+
+      object-fit: contain;
+      border-radius: 10px;
+    }
+
+    .terms-link {
+      color: var(--primary-dark);
+
+      text-decoration: none;
+
+      font-weight: 600;
+      font-size: 0.9rem;
+    }
+
+    .terms-link:hover {
+      color: var(--primary);
+    }
+
+    /* =========================
+       HERO
+    ========================= */
+
+    .hero {
+      background: var(--primary);
+
+      color: #ffffff;
+
+      padding: 70px 24px;
+    }
+
+    .hero-content {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .hero h1 {
+      font-size: clamp(2.3rem, 5vw, 3.5rem);
+
+      line-height: 1.1;
+
+      letter-spacing: -0.03em;
+
+      margin-bottom: 18px;
+    }
+
+    .hero p {
+      max-width: 680px;
+
+      font-size: 1.05rem;
+
+      opacity: 0.92;
+    }
+
+    .dates {
+      display: flex;
+      flex-wrap: wrap;
+
+      gap: 10px;
+
+      margin-top: 28px;
+    }
+
+    .date {
+      padding: 8px 14px;
+
+      border-radius: 999px;
+
+      background: rgba(255, 255, 255, 0.15);
+
+      border: 1px solid rgba(255, 255, 255, 0.25);
+
+      font-size: 0.84rem;
+    }
+
+    /* =========================
+       MAIN CONTENT
+    ========================= */
+
+    main {
+      max-width: 900px;
+
+      margin: 50px auto;
+
+      padding: 0 24px;
+    }
+
+    .privacy-card {
+      background: var(--surface);
+
+      border: 1px solid var(--border);
+
+      border-radius: 18px;
+
+      padding: 50px;
+
+      box-shadow:
+        0 10px 35px rgba(30, 60, 25, 0.06);
+    }
+
+    .intro {
+      font-size: 1.05rem;
+
+      color: #334133;
+    }
+
+    section {
+      margin-top: 42px;
+    }
+
+    section:first-child {
+      margin-top: 0;
+    }
+
+    h2 {
+      font-size: 1.35rem;
+
+      line-height: 1.3;
+
+      margin-bottom: 14px;
+
+      color: var(--text);
+
+      letter-spacing: -0.01em;
+    }
+
+    h3 {
+      font-size: 1.05rem;
+
+      margin-top: 22px;
+      margin-bottom: 10px;
+
+      color: var(--text);
+    }
+
+    p {
+      margin-bottom: 14px;
+    }
+
+    ul {
+      margin: 16px 0 16px 24px;
+    }
+
+    li {
+      margin-bottom: 8px;
+
+      padding-left: 4px;
+    }
+
+    a {
+      color: var(--primary-dark);
+
+      font-weight: 600;
+    }
+
+    a:hover {
+      color: var(--primary);
+    }
+
+    /* =========================
+       CONTACT
+    ========================= */
+
+    .contact-box {
+      background: #f4f8f2;
+
+      border: 1px solid var(--border);
+
+      border-left: 4px solid var(--primary);
+
+      padding: 22px;
+
+      border-radius: 8px;
+    }
+
+    .contact-box p:last-child {
+      margin-bottom: 0;
+    }
+
+    /* =========================
+       FOOTER
+    ========================= */
+
+    footer {
+      background: var(--surface);
+
+      border-top: 1px solid var(--border);
+
+      padding: 30px 24px;
+    }
+
+    .footer-content {
+      max-width: 900px;
+
+      margin: 0 auto;
+
+      display: flex;
+
+      align-items: center;
+
+      justify-content: space-between;
+
+      gap: 20px;
+
+      color: var(--muted);
+
+      font-size: 0.85rem;
+    }
+
+    .footer-brand {
+      display: flex;
+
+      align-items: center;
+
+      gap: 8px;
+    }
+
+    .footer-brand img {
+      width: 28px;
+      height: 28px;
+
+      object-fit: contain;
+    }
+
+    /* =========================
+       MOBILE
+    ========================= */
+
+    @media (max-width: 700px) {
+
+      .nav {
+        padding: 14px 18px;
+      }
+
+      .terms-link {
+        display: none;
+      }
+
+      .hero {
+        padding: 55px 20px;
+      }
+
+      main {
+        margin: 30px auto;
+
+        padding: 0 14px;
+      }
+
+      .privacy-card {
+        padding: 30px 22px;
+
+        border-radius: 14px;
+      }
+
+      .footer-content {
+        flex-direction: column;
+
+        align-items: flex-start;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- =========================
+       NAVIGATION
+  ========================= -->
+
+  <header>
+
+    <nav class="nav">
+
+      <a href="#" class="brand">
+
+        <img
+          src="logo.png"
+          alt="Pulse Guard logo"
+        />
+
+        <span>
+          Pulse Guard
+        </span>
+
+      </a>
+
+      <a
+        href="https://bukho-mabhula.github.io/pulse-guard-terms/"
+        class="terms-link"
+      >
+        Terms of Use →
+      </a>
+
+    </nav>
+
+  </header>
+
+
+  <!-- =========================
+       HERO
+  ========================= -->
+
+  <section class="hero">
+
+    <div class="hero-content">
+
+      <h1>
+        Privacy Policy
+      </h1>
+
+      <p>
+        This Privacy Policy explains how Pulse Guard collects,
+        uses, stores, and shares information when you use our
+        application, website, and related services.
+      </p>
+
+      <div class="dates">
+
+        <span class="date">
+          Effective: 1 April 2026
+        </span>
+
+        <span class="date">
+          Last updated: 6 July 2026
+        </span>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- =========================
+       PRIVACY POLICY
+  ========================= -->
+
+  <main>
+
+    <article class="privacy-card">
+
+
+      <!-- INTRODUCTION -->
+
+      <section>
+
+        <p class="intro">
+          Pulse Guard respects your privacy. This Privacy Policy
+          explains how we collect, use, store, and share information
+          when you use the Pulse Guard mobile application, website,
+          and related services.
+        </p>
+
+        <p>
+          By using Pulse Guard, you agree to the practices described
+          in this Privacy Policy.
+        </p>
+
+      </section>
+
+
+      <!-- 1 -->
+
+      <section>
+
+        <h2>
+          1. About Pulse Guard
+        </h2>
+
+        <p>
+          Pulse Guard is a safety reporting application that allows
+          users to record and submit video reports, share incident
+          location information, receive safety notifications, view
+          heatmap information, and track the status of submitted
+          reports.
+        </p>
+
+        <p>
+          Pulse Guard may process sensitive information, including
+          video, audio, location data, and incident-related details.
+        </p>
+
+      </section>
+
+
+      <!-- 2 -->
+
+      <section>
+
+        <h2>
+          2. Information We Collect
+        </h2>
+
+        <p>
+          We may collect the following types of information:
+        </p>
+
+
+        <h3>
+          Account Information
+        </h3>
+
+        <p>
+          When you register or use the app, we may collect
+          information such as:
+        </p>
+
+        <ul>
+
+          <li>Name</li>
+
+          <li>Email address</li>
+
+          <li>Phone number</li>
+
+          <li>Login or authentication details</li>
+
+          <li>User profile information</li>
+
+        </ul>
+
+
+        <h3>
+          Incident Report Information
+        </h3>
+
+        <p>
+          When you submit a report, we may collect:
+        </p>
+
+        <ul>
+
+          <li>
+            Video recorded through the app
+          </li>
+
+          <li>
+            Audio captured with the video
+          </li>
+
+          <li>
+            GPS location attached to the report
+          </li>
+
+          <li>
+            Date and time of the report
+          </li>
+
+          <li>
+            Incident status information
+          </li>
+
+          <li>
+            Report acknowledgement or resolution updates
+          </li>
+
+          <li>
+            Any other information submitted with the report
+          </li>
+
+        </ul>
+
+
+        <h3>
+          Device and Technical Information
+        </h3>
+
+        <p>
+          We may collect technical information such as:
+        </p>
+
+        <ul>
+
+          <li>Device type</li>
+
+          <li>Operating system</li>
+
+          <li>App version</li>
+
+          <li>Network information</li>
+
+          <li>Push notification token</li>
+
+          <li>Diagnostic logs</li>
+
+          <li>Error reports</li>
+
+          <li>Usage and performance data</li>
+
+        </ul>
+
+
+        <h3>
+          Location Information
+        </h3>
+
+        <p>
+          Pulse Guard may collect your location when needed for
+          app features, including incident reporting, map display,
+          heatmap functionality, and safety alerts.
+        </p>
+
+      </section>
+
+
+      <!-- 3 -->
+
+      <section>
+
+        <h2>
+          3. Camera, Microphone, Location, and Notification Permissions
+        </h2>
+
+        <p>
+          Pulse Guard may request access to:
+        </p>
+
+        <ul>
+
+          <li>
+            <strong>Camera</strong> — to record incident videos.
+          </li>
+
+          <li>
+            <strong>Microphone</strong> — to include audio with
+            video reports.
+          </li>
+
+          <li>
+            <strong>Location</strong> — to attach location to
+            reports and support map-based features.
+          </li>
+
+          <li>
+            <strong>Notifications</strong> — to send safety alerts
+            and report status updates.
+          </li>
+
+        </ul>
+
+        <p>
+          You can manage these permissions through your device
+          settings. If you disable permissions, some app features
+          may not work correctly.
+        </p>
+
+      </section>
+
+
+      <!-- 4 -->
+
+      <section>
+
+        <h2>
+          4. How We Use Information
+        </h2>
+
+        <p>
+          We use information to:
+        </p>
+
+        <ul>
+
+          <li>
+            Operate and improve Pulse Guard.
+          </li>
+
+          <li>
+            Submit and process incident reports.
+          </li>
+
+          <li>
+            Attach location information to reports.
+          </li>
+
+          <li>
+            Display safety maps and heatmaps.
+          </li>
+
+          <li>
+            Show report progress, acknowledgement,
+            or resolution status.
+          </li>
+
+          <li>
+            Send safety notifications and alerts.
+          </li>
+
+          <li>
+            Support authorised safety or response personnel.
+          </li>
+
+          <li>
+            Prevent misuse, fraud, abuse, or unlawful activity.
+          </li>
+
+          <li>
+            Troubleshoot technical issues.
+          </li>
+
+          <li>
+            Maintain app security and reliability.
+          </li>
+
+          <li>
+            Comply with legal obligations.
+          </li>
+
+        </ul>
+
+      </section>
+
+
+      <!-- 5 -->
+
+      <section>
+
+        <h2>
+          5. Report Status and Acknowledgement
+        </h2>
+
+        <p>
+          Pulse Guard may show whether a report has been sent,
+          received, acknowledged, resolved, or otherwise updated.
+        </p>
+
+        <p>
+          These status updates are based on information available
+          through Pulse Guard systems or connected response workflows.
+        </p>
+
+        <p>
+          A status update does not guarantee emergency response,
+          police response, medical response, or any specific outcome.
+        </p>
+
+      </section>
+
+
+      <!-- 6 -->
+
+      <section>
+
+        <h2>
+          6. How We Share Information
+        </h2>
+
+        <p>
+          We do not sell your personal information.
+        </p>
+
+        <p>
+          We may share information with:
+        </p>
+
+        <ul>
+
+          <li>
+            Authorised safety personnel or administrators.
+          </li>
+
+          <li>
+            Relevant response teams or authorities.
+          </li>
+
+          <li>
+            Cloud hosting and storage providers.
+          </li>
+
+          <li>
+            Map, notification, analytics, and infrastructure providers.
+          </li>
+
+          <li>
+            Service providers who help operate Pulse Guard.
+          </li>
+
+          <li>
+            Legal or regulatory authorities where required by law.
+          </li>
+
+          <li>
+            Parties involved in investigating misuse, abuse,
+            or security incidents.
+          </li>
+
+        </ul>
+
+        <p>
+          Information shared may include video, audio, location data,
+          incident details, report status, account information, and
+          technical information where necessary.
+        </p>
+
+      </section>
+
+
+      <!-- 7 -->
+
+      <section>
+
+        <h2>
+          7. Third-Party Services
+        </h2>
+
+        <p>
+          Pulse Guard may use third-party services for hosting,
+          storage, maps, notifications, analytics, infrastructure,
+          and security.
+        </p>
+
+        <p>
+          These third-party services may process information only
+          as needed to provide services to Pulse Guard.
+        </p>
+
+        <p>
+          Their use of information may also be governed by their
+          own terms and privacy policies.
+        </p>
+
+      </section>
+
+
+      <!-- 8 -->
+
+      <section>
+
+        <h2>
+          8. Data Retention
+        </h2>
+
+        <p>
+          We retain information for as long as necessary to:
+        </p>
+
+        <ul>
+
+          <li>
+            Provide Pulse Guard services.
+          </li>
+
+          <li>
+            Maintain incident records.
+          </li>
+
+          <li>
+            Support safety response workflows.
+          </li>
+
+          <li>
+            Comply with legal obligations.
+          </li>
+
+          <li>
+            Resolve disputes.
+          </li>
+
+          <li>
+            Prevent misuse or fraud.
+          </li>
+
+          <li>
+            Improve app reliability and security.
+          </li>
+
+        </ul>
+
+        <p>
+          Retention periods may vary depending on the type of
+          information and the purpose for which it is used.
+        </p>
+
+      </section>
+
+
+      <!-- 9 -->
+
+      <section>
+
+        <h2>
+          9. Security
+        </h2>
+
+        <p>
+          We use reasonable technical and organisational safeguards
+          to protect information submitted through Pulse Guard.
+        </p>
+
+        <p>
+          However, no system is completely secure. We cannot guarantee
+          that information will always be protected from unauthorised
+          access, loss, misuse, disclosure, or alteration.
+        </p>
+
+      </section>
+
+
+      <!-- 10 -->
+
+      <section>
+
+        <h2>
+          10. Your Choices and Rights
+        </h2>
+
+        <p>
+          Depending on your location and applicable law, you may
+          have rights to:
+        </p>
+
+        <ul>
+
+          <li>
+            Access personal information we hold about you.
+          </li>
+
+          <li>
+            Request correction of inaccurate information.
+          </li>
+
+          <li>
+            Request deletion of personal information.
+          </li>
+
+          <li>
+            Object to or restrict certain processing.
+          </li>
+
+          <li>
+            Withdraw consent where processing is based on consent.
+          </li>
+
+          <li>
+            Manage device permissions through your device settings.
+          </li>
+
+          <li>
+            Opt out of certain notifications.
+          </li>
+
+        </ul>
+
+        <p>
+          Some requests may be limited where information must be
+          retained for legal, safety, security, or operational reasons.
+        </p>
+
+      </section>
+
+
+      <!-- 11 -->
+
+      <section>
+
+        <h2>
+          11. Children's Privacy
+        </h2>
+
+        <p>
+          Pulse Guard is not intended for children who are not legally
+          able to consent to the collection and use of their information.
+        </p>
+
+        <p>
+          If we learn that we have collected personal information
+          from a child without the required consent, we will take
+          reasonable steps to delete it.
+        </p>
+
+      </section>
+
+
+      <!-- 12 -->
+
+      <section>
+
+        <h2>
+          12. Emergency and Safety Disclaimer
+        </h2>
+
+        <p>
+          Pulse Guard is not a replacement for emergency services.
+        </p>
+
+        <p>
+          If you are in immediate danger or need urgent assistance,
+          contact your local emergency services immediately.
+        </p>
+
+        <p>
+          Pulse Guard does not guarantee that a submitted report
+          will result in emergency response, police response,
+          medical response, or any specific action.
+        </p>
+
+      </section>
+
+
+      <!-- 13 -->
+
+      <section>
+
+        <h2>
+          13. International Data Processing
+        </h2>
+
+        <p>
+          Your information may be processed and stored in countries
+          other than the country where you live.
+        </p>
+
+        <p>
+          Where required, we take reasonable steps to protect
+          information according to applicable privacy and data
+          protection laws.
+        </p>
+
+      </section>
+
+
+      <!-- 14 -->
+
+      <section>
+
+        <h2>
+          14. Changes to This Privacy Policy
+        </h2>
+
+        <p>
+          We may update this Privacy Policy from time to time.
+        </p>
+
+        <p>
+          If we make material changes, we will update the
+          "Last Updated" date and may provide additional notice
+          through the app or another appropriate channel.
+        </p>
+
+        <p>
+          Your continued use of Pulse Guard after changes are posted
+          means you accept the updated Privacy Policy.
+        </p>
+
+      </section>
+
+
+      <!-- 15 -->
+
+      <section>
+
+        <h2>
+          15. Contact Us
+        </h2>
+
+        <div class="contact-box">
+
+          <p>
+            If you have questions, requests, or concerns about this
+            Privacy Policy or how Pulse Guard handles information,
+            contact us at:
+          </p>
+
+          <p>
+            <strong>Email:</strong>
+
+            <a href="mailto:pulseguard@gmail.com">
+              pulseguard@gmail.com
+            </a>
+          </p>
+
+          <p>
+            <strong>Application:</strong>
+            Pulse Guard
+          </p>
+
+        </div>
+
+      </section>
+
+
+    </article>
+
+  </main>
+
+
+  <!-- =========================
+       FOOTER
+  ========================= -->
+
+  <footer>
+
+    <div class="footer-content">
+
+      <div class="footer-brand">
+
+        <img
+          src="logo.png"
+          alt="Pulse Guard logo"
+        />
+
+        <span>
+          © 2026 Pulse Guard. All rights reserved.
+        </span>
+
+      </div>
+
+      <span>
+        Privacy Policy
+      </span>
+
+    </div>
+
+  </footer>
+
+</body>
+</html>
+```
